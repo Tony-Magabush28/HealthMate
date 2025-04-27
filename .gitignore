@@ -1,6 +1,41 @@
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.db
-.env
-.venv/
+
+# Flask instance folder
 instance/
+
+# Flask secrets file
+.env
+
+# VSCode folder
+.vscode/
+
+# PyCharm folder
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# .env file for storing sensitive information
+.env
+
+# Distribution / packaging
+.tox/
+.nox/
+.coverage
+.hypothesis/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# macOS system files
+.DS_Store
